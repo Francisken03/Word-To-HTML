@@ -5,92 +5,47 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>HTML Simple Resume - Francisken03</title>
-        <style>
-            /* body - This is a single line CSS comment */
+        <title>HTML Simple Resume Activity</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" , href="styles.css">
 
-            /* This is a multi-line CSS comment
-                1
-                2
-                3
-                4
-            */
-
-            * {
-                margin: 0%;
-                padding: 0%;
-                box-sizing: border-box;
-            }
-
-            body {
-                margin-top: 5%;
-                margin-bottom: 5%;
-                font-family: "Calibri", sans-serif;
-                color: gray;
-        
-            }
-
-            h1 {
-                font-weight: 500;
-            }
-
-            h3 {
-                font-weight: 500;
-            }
-
-            th {
-                font-weight: 400;
-                color: black;
-            }
-
-            hr {
-                height: 3px;
-                border-left: 0;
-                border-right: 0;
-            }
-
-            td {
-                padding: 5px 0 3px 0;
-            }
-
-            .header_td--empty {
-                padding-left: 100px;
-
-            }
-
-            /* Use display to change display property to: inline or block*/
-        </style>
 
     </head>
 
     <body>
+
         <!--HEADER SECTION-->
 
-        <head>
-            <h1>YOUR <span>NAME</span></h1>
-            <hr />
+        <header>
             <table>
-                <!--FIRST TABLE-->
                 <tr>
-                    <td class="header_td--empty"></td>
-                    <td>Street Address, City, Zip | Telephone | Email</td>
-                </tr>
+                    <td id="Image1">
+                        <img src="Images/SilhouetteResumeImage.jpg" alt="Profile Picture">
+                    </td>
+                    <td>
+                        <h1>FRANCIS LOUISE VENTURA</h1>
+                        <p><em>Full-Stack Web Developer</em> <br /> <br />
 
-                <!--SECOND TABLE-->
+                            I started my career in programing last July and,<br>
+                            it was the best decision I have ever made.<br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <hr />
+
+            <table class="table_demographics">
+                <!--DEMOGRAPHICS SECTION-->
                 <tr>
                     <td></td>
-                    <td></td>
+                    <td>301 Green Heights Subdivion, Putatan, Muntinlupa City 1602 |
+                        09177654321 | resume@KodeGo.com</td>
                 </tr>
-
-                <!--THIRD TABLE-->
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-
             </table>
 
-        </head>
+        </header>
 
         <!--MAIN SECTION-->
         <main>
@@ -100,22 +55,21 @@
                 <h3>OBJECTIVES</h3>
                 <hr />
 
-                <table>
+                <table class="table_objectives">
 
                     <tr>
-                        <td class="header_td--empty"></td>
-                        <td>Check out the quick tips below to help you get started.
-                            To replace tip text <br />with your own, just click it and start typing.
+                        <td></td>
+                        <td><em>"To be the best web developer that I can be and to contribute to
+                                the technology industry all that I
+                                <br />
+                                know and can do. I am dedicated to perfecting my craft by learning from more seasoned
+                                developers,
+                                <br />
+                                remaining humble, and continuously making strides to learn all that I can about
+                                development."
+                            </em>
                         </td>
                     </tr>
-
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr></tr>
-                    <tr></tr>
 
                 </table>
 
@@ -126,20 +80,54 @@
                 <h3>SKILLS & ABILITIES</h3>
                 <hr />
 
-                <table>
+                <table class="table_skills_header">
+                    <!--SKILLS HEADERS-->
                     <tr>
-                        <td class="header_td--empty"></td>
-                        <td>On the Design tab of the ribbon, check out the Themes,
-                            Colors, and Fonts <br /> galleries to get a custom look with just a click.
-                        </td>
+                        <th>Programming Skills</th>
+                        <td class="td_empty"></td>
+                        <th>Other Skills</th>
                     </tr>
+                    <!--SKILLS LINE 1-->
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>Touch Typist</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>Music</td>
+                        <td>⭐⭐⭐⭐⭐</td>
                     </tr>
+                    <!--SKILLS LINE 2-->
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>HTML & CSS</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>SEO</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <!--SKILLS LINE 3-->
+                    <tr>
+                        <td>Javascript</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>Copywriting</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <!--SKILLS LINE 4-->
+                    <tr>
+                        <td>PHP</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>Client Management</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <!--SKILLS LINE 5-->
+                    <tr>
+                        <td>Jquery</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <!-- <td></td>
+                        <td>⭐⭐⭐⭐⭐</td> -->
+                    </tr>
+                    <!--SKILLS LINE 6-->
+                    <tr>
+                        <td>Cisco Networking</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                        <!-- <td></td>
+                        <td>⭐⭐⭐⭐⭐</td> -->
                     </tr>
                 </table>
 
@@ -150,7 +138,7 @@
                 <h3>EXPERIENCE</h3>
                 <hr />
 
-                <table>
+                <table class="table_experience">
                     <tr>
                         <th>Dates From-To</th>
                         <td>Job title, <em>Company Name</em></td>
@@ -189,7 +177,7 @@
                 <h3>EDUCATION</h3>
                 <hr />
 
-                <table>
+                <table class="table_education">
                     <tr>
                         <th>Date From-To</th>
                         <td>Degree, Location, <em>School Name</em></td>
@@ -214,7 +202,7 @@
                 <h3>COMMUNICATION</h3>
                 <hr />
 
-                <table>
+                <table class="table_communication">
                     <tr>
                         <td class="header_td--empty"></td>
                         <td>You delivered that big presentation to rave reviews. Don’t be shy about it <br /> now!
@@ -241,7 +229,7 @@
                 <h3>LEADERSHIP</h3>
                 <hr />
 
-                <table>
+                <table class="table_leadership">
                     <tr>
                         <td class="header_td--empty"></td>
                         <td>Are you president of your fraternity, head of the condo board, or a team lead <br />
@@ -264,6 +252,19 @@
             </section>
 
         </main>
+
+        <div id="music">
+            <iframe src="https://www.youtube.com/embed/6zTc2hD2npA" allow="autoplay" width=68.4% height="150px"
+                frameborder="0"></iframe>
+
+        </div>
+
+        <footer class="section.footer">
+            <p>
+                &copy Francis Ventura. 2022 for KodeGo Activity
+            </p>
+            
+        </footer>
 
     </body>
 
